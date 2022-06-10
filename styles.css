@@ -1,0 +1,117 @@
+body {
+  background-color: white;
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+  
+h1 {
+  font-size: 120px;
+  margin: 50px auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  line-height: 1;
+}
+  
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  border-bottom: none;
+  width: 100px;
+  margin: 100px auto;
+}
+
+.half {
+  width: 50%;
+  margin: auto;
+}
+
+
+p {
+  line-height: 2;
+}
+
+.container-top {
+  background-color: #EAF6F6;
+  padding-top: 10px;
+}
+
+.container-top .navigation {
+  list-style: none;
+  position: relative;
+  margin: 0 auto;
+  width: 300px;
+}
+
+.container-top .navigation .navigation-cloud-1,
+.container-top .navigation .navigation-cloud-2,
+.container-top .navigation .navigation-cloud-3 {
+  position: absolute;
+  background-image: url("cloud.png");
+  background-size: 100%;
+  width: 150px;
+  height: 100px;
+  text-align: center;
+}
+
+.container-top .navigation .navigation-cloud-1 a,
+.container-top .navigation .navigation-cloud-2 a,
+.container-top .navigation .navigation-cloud-3 a {
+  display: inline-block;
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  margin-top: 30px;
+  text-decoration: none;
+}
+
+.container-top .navigation a:hover {
+  color: #000;
+}
+
+.container-top .navigation .navigation-cloud-1 {
+  left: -168px;
+  top: 20px;
+}
+
+.container-top .navigation .navigation-cloud-2 {
+  left: 350px;
+  top: 76px;
+}
+
+.container-top .navigation .navigation-cloud-3 {
+  left: -162px;
+  top: 170px;
+}
+
+.list-box {
+  width: 20%;
+  margin: auto;
+}
+
+.table-box {
+  width: 60%;
+  margin: auto;
+}
+
+.think-table thead{
+  background: #EAF6F6;
+}
+
+.do-list > li {
+  text-align: left;
+}
+
+
